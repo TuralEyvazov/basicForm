@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="admin-panel">
+            <form>
+                <div class="name input">
+                    <label for="name">Mehsulun Adi: </label>
+                    <input type="text" name="name" id="name" placeholder="Mehsulun adi">
+                </div>
+                <div class="img-link input">
+                    <label for="image">Image-Link: </label>
+                    <input type="text" name="image" id="image" placeholder="Resmin linkini daxil edin">
+                </div>
+                <div class="about input">
+                    <label for="about">Hakkinda: </label>
+                    <textarea name="about" id="about" placeholder="Etrafli melumat"></textarea>
+                </div>
+                <div class="price input">
+                    <label for="price">Qiymeti: </label>
+                    <div>
+                        <input type="text" name="price" id="price" placeholder="Mehsulun qiymeti">
+                        <select name="money" id="money">
+                            <option value="manat">Manat</option>
+                            <option value="dollar">Dollar</option>
+                            <option value="euro">Euro</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="type input">
+                    <label for="type">Mehsulun Tipi</label>
+                    <input type="text" name="type" id="type" placeholder="Mehsulun tipi">
+                </div>
+                <button>Gonder</button>
+            </form>
+        </div>
+        <div class="content">
+            <div class="cards">
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
